@@ -1,0 +1,5 @@
+Road_traffic_density,Order_Count,Mean_Delivery_Minutes,Median_Delivery_Minutes,Std_Dev_Minutes,Minimum_Minutes,Maximum_Minutes,Order_Percentage
+Low,15476,21.27,20.0,6.8,10,44,34.4
+Medium,10945,26.7,27.0,8.56,10,49,24.33
+High,4423,27.24,27.0,8.4,10,54,9.83
+Jam,14139,31.18,31.0,9.94,10,54,31.43

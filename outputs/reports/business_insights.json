@@ -1,0 +1,26 @@
+{
+    "project": "Delivery Operations Intelligence System",
+    "dataset": {
+        "total_orders": 45584,
+        "average_delivery_minutes": 26.29,
+        "median_delivery_minutes": 26.0,
+        "deliveries_over_30_minutes_pct": 29.84
+    },
+    "traffic_comparison": {
+        "low_traffic_mean_minutes": 21.27,
+        "jam_traffic_mean_minutes": 31.18,
+        "difference_minutes": 9.91,
+        "interpretation": "Orders labeled Jam have longer average delivery times than orders labeled Low. This is observational and does not establish causation."
+    },
+    "data_quality": {
+        "orders_missing_traffic_category": 601,
+        "handling": "Retain as unknown and disclose in reporting."
+    },
+    "limitations": [
+        "Traffic category is strongly associated with order hour.",
+        "Estimated distance is straight-line distance, not road distance.",
+        "The dataset contains coordinate inconsistencies.",
+        "The 30-minute threshold is an analytical choice, not a verified SLA.",
+        "Results describe this dataset and may not generalize to live operations."
+    ]
+}

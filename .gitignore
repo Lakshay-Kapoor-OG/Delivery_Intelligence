@@ -1,0 +1,23 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Exclude unused datasets and models
+/data/
+outputs/models/
+
+# Exclude everything in app/data except the required dataset
+app/data/*
+!app/data/delivery_data_engineered.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

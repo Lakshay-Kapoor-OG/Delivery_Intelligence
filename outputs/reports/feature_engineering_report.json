@@ -1,0 +1,33 @@
+{
+    "project": "Delivery Operations Intelligence System",
+    "created_at": "2026-10-29T14:01:35",
+    "source_file": "delivery_data_cleaned.csv",
+    "output_file": "delivery_data_engineered.csv",
+    "rows": 45584,
+    "columns": 44,
+    "features_created": [
+        "Order_Date_parsed",
+        "Day_of_Week",
+        "Day_of_Week_Number",
+        "Is_Weekend",
+        "Month",
+        "Day_of_Month",
+        "Order_Time_Minutes",
+        "Pickup_Time_Minutes",
+        "Order_Hour",
+        "Pickup_Hour",
+        "Pickup_Wait_Minutes",
+        "Pickup_Wait_Over_180_Minutes",
+        "Estimated_Distance_KM",
+        "Distance_Requires_Review",
+        "Distance_Valid_For_Analysis",
+        "Distance_KM_Validated"
+    ],
+    "distance_method": "Haversine great-circle distance",
+    "distance_screening_rule": "Keep positive estimated distances up to 25 km in Distance_KM_Validated; treat this threshold as provisional.",
+    "invalid_coordinates_policy": "Preserve orders and original coordinates; exclude invalid or placeholder coordinates from distance analysis.",
+    "pickup_wait_caveat": "Estimated from clock times only; not a verified operational measurement.",
+    "rows_removed": 0,
+    "usable_distance_records": 41513,
+    "excluded_distance_records": 4071
+}

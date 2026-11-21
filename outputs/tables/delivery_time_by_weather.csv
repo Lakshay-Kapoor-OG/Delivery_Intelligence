@@ -1,0 +1,7 @@
+Weather_conditions,Order_Count,Mean_Delivery_Minutes,Median_Delivery_Minutes,Std_Dev_Minutes,Minimum_Minutes,Maximum_Minutes,Order_Percentage
+Sunny,7282,21.86,20.0,8.33,10,54,16.19
+Stormy,7584,25.87,26.0,8.47,10,54,16.87
+Sandstorms,7494,25.88,26.0,8.62,10,54,16.67
+Windy,7422,26.12,26.0,8.62,10,54,16.51
+Fog,7653,28.91,28.0,10.13,10,54,17.02
+Cloudy,7533,28.92,28.0,10.09,10,54,16.75

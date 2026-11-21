@@ -1,0 +1,42 @@
+{
+    "project": "Delivery Operations Intelligence System",
+    "source_file": "Zomato Dataset.csv",
+    "processed_file": "delivery_data_cleaned.csv",
+    "created_at": "2026-10-29T13:46:00",
+    "raw_shape": [
+        45584,
+        20
+    ],
+    "processed_shape": [
+        45584,
+        27
+    ],
+    "rows_removed": 0,
+    "duplicate_rows_found": 0,
+    "age_values_flagged": 38,
+    "ratings_flagged": 53,
+    "restaurant_coordinate_placeholders": 3640,
+    "delivery_coordinate_placeholders": 327,
+    "records_flagged_for_distance_exclusion": 3640,
+    "missing_values_after_cleaning": {
+        "Delivery_person_Age": 1892,
+        "Delivery_person_Ratings": 1961,
+        "Time_Orderd": 1731,
+        "Weather_conditions": 616,
+        "Road_traffic_density": 601,
+        "multiple_deliveries": 993,
+        "Festival": 228,
+        "City": 1200,
+        "Time_Orderd_normalized": 1731
+    },
+    "cleaning_rules": [
+        "Original raw dataset preserved unchanged.",
+        "Created a separate processed working copy.",
+        "Age values below 18 flagged and set to missing.",
+        "Ratings outside the 1-5 range flagged and set to missing.",
+        "Invalid coordinate patterns flagged, not deleted.",
+        "Order and pickup times normalized into HH:MM columns.",
+        "Missing values retained for analysis-specific handling.",
+        "No rows deleted during this cleaning stage."
+    ]
+}

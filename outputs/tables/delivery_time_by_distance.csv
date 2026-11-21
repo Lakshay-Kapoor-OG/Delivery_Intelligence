@@ -1,0 +1,6 @@
+Distance_Band,Order_Count,Mean_Delivery_Minutes,Median_Delivery_Minutes,Std_Dev_Minutes,Order_Percentage
+0-5 km,11184,22.18,21.0,7.4,26.94
+5-10 km,11185,24.39,25.0,8.01,26.94
+10-15 km,11183,29.84,29.0,9.81,26.94
+15-20 km,6184,29.9,29.0,9.82,14.9
+20-25 km,1777,29.78,29.0,9.98,4.28
